@@ -1,0 +1,10 @@
+input[type="checkbox"]{
+    width: 1.35em;
+    height: 1.35em;
+    border: 0.15em solid currentColor;
+}
+
+#toggle.follow-me2 {
+    filter: invert(100%) hue-rotate(180deg) brightness(1.7);
+}
+

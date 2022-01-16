@@ -1,0 +1,52 @@
+.modalBody{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    padding: 20px 20px 20px 20px;
+    -webkit-animation-name: modal-animation;
+    -webkit-animation-duration: 0.5s;
+    animation-name: modal-animation;
+    animation-duration: 0.5s;
+}
+  
+@-webkit-keyframes modal-animation {
+    from {
+        top: -100px;
+        opacity: 0;
+    }
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+  
+@keyframes modal-animation {
+    from {
+        top: -100px;
+        opacity: 0;
+    }
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+
+
+.editInput{
+    margin-top:12px;
+}
+
+
+.btnFile{
+    text-align:center;
+    margin-top:12px;
+    margin-left:180px;
+    }
+
+.btnSubmit{
+    text-align:center;
+    margin-top:12px;
+    }

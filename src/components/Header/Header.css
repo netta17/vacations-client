@@ -1,0 +1,21 @@
+
+
+.title{
+  
+    font-weight: 600;
+    font-size: 55px;
+    text-align: center;
+
+}
+.header {
+background-image:url('https://www.gstatic.com/travel-frontend/animation/hero/flights_3.svg');
+background-size: cover;
+min-height: 250px;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+background-repeat: no-repeat;
+
+}
+

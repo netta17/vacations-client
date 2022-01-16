@@ -1,0 +1,12 @@
+#reports {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    background-color:rgb(82, 191, 235);
+    border-color:rgb(82, 191, 235);    
+
+}
+
+button#reports:hover{
+    background-color:rgb(25, 173, 231);
+  }

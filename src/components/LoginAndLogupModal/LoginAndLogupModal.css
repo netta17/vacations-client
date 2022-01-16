@@ -1,0 +1,38 @@
+.modal-body{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items:center;
+    
+}
+
+.registerInput{
+    margin-top:12px;
+}
+
+.loginInput{
+    margin-top:12px;
+}
+
+button.logoutButton.btn.btn-primary.btn-lg {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+button.loginButton.btn.btn-primary.btn-lg {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.Loginmodal {
+    display: inline-block;
+}
+.error{
+    color:red;
+}
